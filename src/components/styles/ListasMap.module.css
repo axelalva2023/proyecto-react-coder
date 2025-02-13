@@ -1,0 +1,32 @@
+.tarjeta {
+    border: 2px solid gray;
+    width: 304px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+}
+
+.imagentarjeta {
+    width: 300px;
+    height: 245px;
+}
+
+.tarjetacontenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boton {
+    text-decoration: none;
+    color: #F5F5F5;
+    background-color: #1A1A1D;
+    padding: 10px;
+}
+.parrafotarjeta{
+    margin-bottom: 10px;
+}

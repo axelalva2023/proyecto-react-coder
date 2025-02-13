@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,10 +13,12 @@ header {
     padding: 25px;
 
 }
-header img{
+
+header img {
     width: 150px;
     height: 150px;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -30,18 +32,22 @@ header nav ul li {
     margin: 10px;
     font-size: 25px;
 }
-.carrito img{
+
+.carrito img {
     width: 50px;
     height: 50px;
 
 }
 
-.carrito{
+.carrito {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
 }
-.texto-bienvenida{
+
+.texto-bienvenida {
     text-align: center;
 }
+
+

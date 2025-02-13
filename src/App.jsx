@@ -1,16 +1,27 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer'
+import Button from './components/Ejemplos/Button'
+import Counter from './components/ItemCount'
+import { BrowserRouter, Routes, Route } from 'react-router'
+
+
 
 
 function App() {
-  
+
 
   return (
-    <>
+    <BrowserRouter>
     <NavBar/>
-    <ItemListContainer mensaje = "Bienvenidos a tecno ventas"/>
-    </>
+    <Routes>
+      <Route path='/' element={<ItemListContainer/>}/>
+      <Route path='/category/:id' element={<ItemListContainer/>}/>
+      <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+      <Route path='*' element={<div>La pagina que buscas no existe</div>}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

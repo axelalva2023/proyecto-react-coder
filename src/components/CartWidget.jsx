@@ -4,8 +4,8 @@ function CartWidget() {
 
     return (
         <div className="carrito">
-        <img src={carrito} alt="carrito de compra"/>
-        <p>10</p>
+            <img src={carrito} alt="carrito de compra" />
+            <p>10</p>
         </div>
     )
 }
