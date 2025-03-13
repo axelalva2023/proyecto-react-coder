@@ -1,0 +1,20 @@
+.formulario{
+    padding-block: 20px;
+    border: 2px solid #1A1A1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamano{
+    padding: 10px;
+    width: 100%;
+}
+.input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid #1A1A1D;
+}
